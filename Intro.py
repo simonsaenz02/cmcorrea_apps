@@ -12,6 +12,9 @@ with st.sidebar:
     )
     st.write(parrafo)
 
+    st.markdown("---")
+    st.write("**Autor:** Simón Saenz Giraldo")
+
 col1, col2, col3 = st.columns(3)
 
 # ------------------------------
@@ -85,5 +88,6 @@ with col3:
     st.subheader("15. Control MQTT con Voz")
     image = Image.open("ejercicio15_mqtt_voz.png")
     st.image(image, width=190)
+
 
 
