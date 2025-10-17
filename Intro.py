@@ -31,7 +31,7 @@ with col1:
     image = Image.open("ejercicio2_texto_voz.png") 
     st.image(image, width=190) 
     st.write("Conversión automática de texto escrito en voz.") 
-    url = "" 
+    url = "https://textoavoz.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("3. Interfaz Voz a Texto") 
