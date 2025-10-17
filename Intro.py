@@ -1,87 +1,89 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+
+st.title("Bitácora de Ejercicios - Interfaces Multimodales")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
-  parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
-  )
-  st.write(parrafo)
+    st.subheader("Acerca de esta Bitácora")
+    parrafo = (
+        "Esta bitácora recopila los 15 ejercicios desarrollados en el curso de Interfaces "
+        "Multimodales, mostrando ejemplos prácticos de interacción con Inteligencia Artificial "
+        "y sistemas ciberfísicos."
+    )
+    st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
+# ------------------------------
+# COLUMNA 1
+# ------------------------------
 with col1:
- 
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+    st.subheader("1. Introducción")
+    image = Image.open("ejercicio1_introduccion.png")
+    st.image(image, width=190)
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+    st.subheader("2. Interfaz Texto a Voz")
+    image = Image.open("ejercicio2_texto_voz.png")
+    st.image(image, width=190)
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+    st.subheader("3. Interfaz Voz a Texto")
+    image = Image.open("ejercicio3_voz_texto.png")
+    st.image(image, width=190)
 
-with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
- st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductor-ab0sp9f6fi.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+    st.subheader("4. Interfaz OCR")
+    image = Image.open("ejercicio4_ocr.png")
+    st.image(image, width=190)
 
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://asistpy-csv.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+    st.subheader("5. Análisis de Sentimiento")
+    image = Image.open("ejercicio5_sentimiento.png")
+    st.image(image, width=190)
 
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+# ------------------------------
+# COLUMNA 2
+# ------------------------------
+with col2:
+    st.subheader("6. Análisis de Texto (Español)")
+    image = Image.open("ejercicio6_texto.png")
+    st.image(image, width=190)
 
+    st.subheader("7. Análisis de Texto (Inglés)")
+    image = Image.open("ejercicio7_texto_ingles.png")
+    st.image(image, width=190)
 
-with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
- st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+    st.subheader("8. Reconocimiento de Objetos en Imágenes")
+    image = Image.open("ejercicio8_objetos.png")
+    st.image(image, width=190)
 
- st.subheader("Análisis de Imagen")
- image = Image.open('OIG4.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
- 
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+    st.subheader("9. Reconocimiento de Gestos")
+    image = Image.open("ejercicio9_gestos.png")
+    st.image(image, width=190)
+
+    st.subheader("10. ChatPat (Sistema Experto)")
+    image = Image.open("ejercicio10_chatpat.png")
+    st.image(image, width=190)
+
+# ------------------------------
+# COLUMNA 3
+# ------------------------------
+with col3:
+    st.subheader("11. Interpretación de Imágenes")
+    image = Image.open("ejercicio11_interpretacion.png")
+    st.image(image, width=190)
+
+    st.subheader("12. Interfaz Táctil")
+    image = Image.open("ejercicio12_tactil.png")
+    st.image(image, width=190)
+
+    st.subheader("13. Reconocimiento de Bocetos")
+    image = Image.open("ejercicio13_bocetos.png")
+    st.image(image, width=190)
+
+    st.subheader("14. Control MQTT con Botones")
+    image = Image.open("ejercicio14_mqtt_botones.png")
+    st.image(image, width=190)
+
+    st.subheader("15. Control MQTT con Voz")
+    image = Image.open("ejercicio15_mqtt_voz.png")
+    st.image(image, width=190)
 
 
