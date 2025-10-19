@@ -38,21 +38,21 @@ with col1:
     image = Image.open("ejercicio3_voz_texto.jpg") 
     st.image(image, width=190) 
     st.write("Transformación de audio hablado en texto.") 
-    url = "" 
+    url = "https://traductorsimon.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("4. Interfaz OCR") 
     image = Image.open("ejercicio4_ocr.jpg") 
     st.image(image, width=190) 
     st.write("Reconocimiento de texto en imágenes mediante OCR.") 
-    url = "" 
+    url = "https://imagenatexto12.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("5. Análisis de Sentimiento") 
     image = Image.open("ejercicio5_sentimiento.jpg") 
     st.image(image, width=190) 
     st.write("Clasificación de emociones y opiniones en texto.") 
-    url = "" 
+    url = "https://textana2.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
 # ------------------------------
@@ -63,35 +63,35 @@ with col2:
     image = Image.open("ejercicio6_texto.jpg") 
     st.image(image, width=190) 
     st.write("Procesamiento de texto para extracción de información en español.") 
-    url = "" 
+    url = "https://tdfesp-prwutnqfdqitccftwx7btv.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("7. Análisis de Texto (Inglés)") 
     image = Image.open("ejercicio7_texto_ingles.jpg") 
     st.image(image, width=190) 
     st.write("Procesamiento de texto para extracción de información en inglés.") 
-    url = "" 
+    url = "https://textanalyisi.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("8. Reconocimiento de Objetos en Imágenes") 
     image = Image.open("ejercicio8_objetos.jpg") 
     st.image(image, width=190) 
     st.write("Detección y clasificación de objetos en imágenes.") 
-    url = "" 
+    url = "https://yolov5simonsaenz.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("9. Reconocimiento de Gestos") 
     image = Image.open("ejercicio9_gestos.jpg") 
     st.image(image, width=190) 
     st.write("Interacción por medio de gestos con cámara.") 
-    url = "" 
+    url = "https://gestossimonsaenz.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
-    st.subheader("10. ChatPat (Sistema Experto)") 
+    st.subheader("10. ChatPdf (Sistema Experto)") 
     image = Image.open("ejercicio10_chatpat.png") 
     st.image(image, width=190) 
     st.write("Sistema experto basado en reglas y conversación.") 
-    url = "" 
+    url = "https://chatpdfsimon.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
 # ------------------------------
