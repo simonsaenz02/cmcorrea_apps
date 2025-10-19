@@ -102,35 +102,35 @@ with col3:
     image = Image.open("ejercicio11_interpretacion.png") 
     st.image(image, width=190) 
     st.write("Descripción e interpretación automática de imágenes.") 
-    url = "" 
+    url = "https://visionappsimon.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("12. Interfaz Táctil") 
     image = Image.open("ejercicio12_tactil.jpg") 
     st.image(image, width=190) 
     st.write("Aplicación que usa gestos táctiles como entrada.") 
-    url = "" 
+    url = "https://tablero1.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("13. Reconocimiento de Bocetos") 
     image = Image.open("ejercicio13_bocetos.jpg") 
     st.image(image, width=190) 
     st.write("Identificación de dibujos y bocetos simples.") 
-    url = "" 
+    url = "https://tablerosimon.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("14. Control MQTT con Botones") 
     image = Image.open("ejercicio14_mqtt_botones.png") 
     st.image(image, width=190) 
     st.write("Control de dispositivos físicos usando botones vía MQTT.") 
-    url = "" 
+    url = "https://mqttbotonesoriginal.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
     st.subheader("15. Control MQTT con Voz") 
     image = Image.open("ejercicio15_mqtt_voz.jpg") 
     st.image(image, width=190) 
     st.write("Control de dispositivos físicos usando comandos de voz vía MQTT.") 
-    url = "" 
+    url = "https://controlmqqttvozsimoin.streamlit.app/" 
     st.write(f"Enlace: [Aquí]({url})") 
 
 
